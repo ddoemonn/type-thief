@@ -118,7 +118,7 @@ Notice how the `Todos` type automatically references the existing `Todo` type in
 - 📝 Preserves existing type definitions
 - 🔍 Smart type inference for nested objects and arrays
 - 🌟 Special handling for common patterns like Todo/Todos
-- 📦 **Zero dependencies** - lightweight and fast
+- 📦 Zero dependencies - lightweight and fast
 
 ## 📦 Installation
 
