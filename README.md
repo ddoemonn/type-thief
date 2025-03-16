@@ -1,6 +1,15 @@
 # 🔍 type-thief
 
-Automatically generate TypeScript types from your runtime data with zero effort!
+Automatically generate TypeScript types from your runtime data with zero effort! Perfect for creating type definitions from API responses without writing them manually.
+
+## 🌟 Why type-thief?
+
+Tired of manually creating TypeScript interfaces for your API responses? **type-thief** solves this problem by automatically generating accurate type definitions from your runtime data:
+
+- ✅ **Save time** - No more tedious manual type creation
+- ✅ **Stay in sync** - Types always match your actual API responses
+- ✅ **Zero dependencies** - Lightweight addition to your project
+- ✅ **Smart type inference** - Handles nested objects, arrays, and relationships
 
 ## ⚡ Quick Start
 
@@ -85,6 +94,13 @@ export type Todos = Todo[];
 ```
 
 Notice how the `Todos` type automatically references the existing `Todo` type instead of duplicating the structure!
+
+## 💡 Common Use Cases
+
+- **API Integration**: Generate types from REST or GraphQL API responses
+- **Backend Communication**: Keep frontend types in sync with your backend data
+- **Prototyping**: Quickly build type-safe applications without writing types manually
+- **Data Exploration**: Understand the structure of complex data by generating types
 
 ## 🛠️ Options
 

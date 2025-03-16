@@ -1,7 +1,7 @@
 {
   "name": "type-thief",
-  "version": "0.1.0",
-  "description": "Automatically generate TypeScript types from your runtime data with zero effort!",
+  "version": "0.1.1",
+  "description": "Automatically generate TypeScript types from your backend API responses and runtime data with zero effort. No more manual type creation!",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -22,7 +22,10 @@
     "types",
     "generation",
     "runtime",
-    "inference"
+    "inference",
+    "api",
+    "backend",
+    "automatic"
   ],
   "author": "ddoemonn",
   "license": "MIT",
