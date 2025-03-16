@@ -1,0 +1,27 @@
+# Source files
+core/
+types/
+utils/
+*.ts
+!*.d.ts
+
+# Config files
+tsconfig.json
+.gitignore
+.npmignore
+
+# Development files
+node_modules/
+.vscode/
+.idea/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS specific
+.DS_Store
+Thumbs.db 

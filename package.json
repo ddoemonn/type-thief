@@ -1,0 +1,41 @@
+{
+  "name": "type-thief",
+  "version": "0.1.0",
+  "description": "Automatically generate TypeScript types from your runtime data with zero effort!",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddoemonn/type-thief.git"
+  },
+  "keywords": [
+    "typescript",
+    "types",
+    "generation",
+    "runtime",
+    "inference"
+  ],
+  "author": "ddoemonn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ddoemonn/type-thief/issues"
+  },
+  "homepage": "https://github.com/ddoemonn/type-thief#readme",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
