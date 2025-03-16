@@ -1,6 +1,6 @@
 # Security Policy
 
-Use latest version on [ddoemonn/go-dot-dot](https://github.com/ddoemonn/go-dot-dot)
+Use latest version on [ddoemonn/type-thief](https://github.com/ddoemonn/type-thief)
 
 ## Reporting a Vulnerability
 
